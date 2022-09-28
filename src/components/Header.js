@@ -10,7 +10,7 @@ function Header({ onSearch }) {
         </span>
         gregslist
       </h1>
-      <Search />
+      <Search onSearch={onSearch}/>
     </header>
   );
 }
