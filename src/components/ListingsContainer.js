@@ -19,7 +19,7 @@ function ListingsContainer({ searchTerm }) {
     return listing.description.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
-  const listingCards = listings.map((listing) => {
+  const listingCards = filterListings.map((listing) => {
     return <ListingCard 
     key={ listing.id } 
     listing={ listing }
