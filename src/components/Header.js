@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./Search";
 
-function Header() {
+function Header({ onSearch }) {
   return (
     <header>
       <h1>
