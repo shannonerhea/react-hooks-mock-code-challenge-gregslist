@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search() {
+function Search({ }) {
   function handleSubmit(e) {
     e.preventDefault();
     console.log("submitted");
@@ -21,3 +21,4 @@ function Search() {
 }
 
 export default Search;
+//I can search for listings by their name.

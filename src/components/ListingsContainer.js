@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListingCard from "./ListingCard";
 
-function ListingsContainer() {
+function ListingsContainer({ searchTerm}) {
   const [listings, setListings] = useState([]);
 
   useEffect(() => {
