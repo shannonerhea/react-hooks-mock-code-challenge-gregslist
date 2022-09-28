@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListingCard from "./ListingCard";
 
-function ListingsContainer({ searchTerm}) {
+function ListingsContainer({ searchTerm }) {
   const [listings, setListings] = useState([]);
 
   useEffect(() => {
@@ -14,6 +14,10 @@ function ListingsContainer({ searchTerm}) {
     const updatedListing = listings.filter(listing => listing.id !== id)
     setListings(updatedListing)
   };
+
+  const filterListings = listings.filter(listing => {
+    return listing.description.toLowerCase().includes(searchTerm.toLowerCase());
+  });
 
   const listingCards = listings.map((listing) => {
     return <ListingCard 
