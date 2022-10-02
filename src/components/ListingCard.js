@@ -4,7 +4,7 @@ function ListingCard({ listing, onDelete }) {
   const [isFaved, setIsFaved] = useState(false);
   const { id, image, description, location} = listing;
 
-  function handleDelete() {
+ function handleDelete() {
     fetch(`http://localhost:6001/listings/${id}`, {
       method: "DELETE"
     })
@@ -12,7 +12,7 @@ function ListingCard({ listing, onDelete }) {
     .then(() => {
      onDelete(id);
     })
-  }
+  } 
 
 
   return (
