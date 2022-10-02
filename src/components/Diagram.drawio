@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="MWwkfWXRGQsGaWN92XST" name="Page-1">
+        <mxGraphModel dx="173" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h2 class=&quot;code-line&quot; dir=&quot;auto&quot; id=&quot;core-deliverables&quot; style=&quot;margin-top: 0px ; font-weight: normal ; margin-bottom: 0.2em ; position: relative ; color: rgb(238 , 238 , 238) ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Core Deliverables&lt;/font&gt;&lt;/h2&gt;&lt;p class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;margin-top: 0px ; margin-bottom: 0.7em ; position: relative ; color: rgb(238 , 238 , 238) ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;As a user:&lt;/font&gt;&lt;/p&gt;&lt;ol class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;margin-top: 0px ; margin-bottom: 0.7em ; position: relative ; color: rgb(238 , 238 , 238) ; font-size: 13px&quot;&gt;&lt;li class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;position: relative&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;When the app starts, I can see all listings.&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;position: relative&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;I can &quot;favorite&quot; and &quot;unfavorite&quot; a listing on the frontend by clicking the star icon. This feature doesn't need backend persistence.&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;position: relative&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;I can remove a listing from the page by clicking the trash can icon. This change should be persisted in the backend.&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;code-line&quot; dir=&quot;auto&quot; style=&quot;position: relative&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;I can search for listings by their name.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="-10" width="250" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ListingsContainer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="ListingCard" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Search" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;setStae f&lt;/font&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;or Listings&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;make GET request fetch&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="-20" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
