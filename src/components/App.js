@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react/cjs/react.production.min";
+import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import ListingsContainer from "./ListingsContainer";
 
@@ -8,7 +7,7 @@ function App() {
 
   useEffect(() => {
     fetch(" http://localhost:6001/listings")
-    .then((r) => r.json())
+    .then((res) => res.json())
     .then(listingArr => {
       setListings(listingArr);
     })
